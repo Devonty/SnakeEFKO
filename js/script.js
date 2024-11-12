@@ -63,7 +63,6 @@ const changeDirection = e => {
         },
     };
 
-    // console.log(e);
     if (handlers.hasOwnProperty(e.key) === true) {
         handlers[e.key]();
     }
